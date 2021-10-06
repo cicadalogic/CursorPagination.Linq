@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>
+      Add support for cursor pagination and relay pagination in Linq and Entity Framework Core when used with GraphQL for .NET
+    </Description>
+    <Authors>Lucas Greci</Authors>
+    <Version>0.1.0</Version>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AssemblyName>CursorPagination.Linq.GraphQL</AssemblyName>
+    <RootNamespace>System.Linq.CursorPagination</RootNamespace>
+    <PackageTags>Entity Framework Core;Cursor Pagination;Relay Pagination;Linq;GraphQL</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright (c) 2021 Lucas Greci</Copyright>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>false</IncludeSymbols>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphQL" Version="4.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CursorPagination.Linq\CursorPagination.Linq.csproj" />
+  </ItemGroup>
+
+</Project>

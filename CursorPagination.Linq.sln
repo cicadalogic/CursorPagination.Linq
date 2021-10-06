@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursorPagination.Linq", "src\CursorPagination.Linq\CursorPagination.Linq.csproj", "{92ECD896-5D85-419D-AA4E-3F061722B3E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursorPagination.Linq.GraphQL", "src\CursorPagination.Linq.GraphQL\CursorPagination.Linq.GraphQL.csproj", "{805ED60F-9A46-4324-871E-2D56A7740359}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92ECD896-5D85-419D-AA4E-3F061722B3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92ECD896-5D85-419D-AA4E-3F061722B3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92ECD896-5D85-419D-AA4E-3F061722B3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92ECD896-5D85-419D-AA4E-3F061722B3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{805ED60F-9A46-4324-871E-2D56A7740359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805ED60F-9A46-4324-871E-2D56A7740359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805ED60F-9A46-4324-871E-2D56A7740359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805ED60F-9A46-4324-871E-2D56A7740359}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E89BC76-9CC8-4626-9F03-F2FE8E799F12}
+	EndGlobalSection
+EndGlobal
